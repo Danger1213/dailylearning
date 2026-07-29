@@ -43,37 +43,37 @@
 //
 //}
 #include<stdio.h>
-//int main()
-//{
-//	int n;
-//	while (scanf("%d", &n) != EOF)
-//	{
-//		if (n >= 10)
-//		{
-//			printf("n >= 10\n");
-//		}
-//		else if (n >= 5 && n < 10)
-//		{
-//			printf("n >= 5 && n < 10\n");
-//		}
-//		else
-//		{
-//			printf("n < 5\n");
-//		}
-//	}
-//	return 0;
-//}
 int main()
 {
-	int a = 1;
-	while (a <= 10)
+	int n;
+	while (scanf("%d", &n) != EOF)
 	{
-		printf("%d", a);
-		a++;
-
+		if (n >= 10)
+		{
+			printf("n >= 10\n");
+		}
+		else if (n >= 5 && n < 10)
+		{
+			printf("n >= 5 && n < 10\n");
+		}
+		else
+		{
+			printf("n < 5\n");
+		}
 	}
-
 	return 0;
+}
+//int main()
+//{
+//	int a = 1;
+//	while (a <= 10)
+//	{
+//		printf("%d", a);
+//		a++;
+//
+//	}
+//
+//	return 0;
 	
 		
 
@@ -81,4 +81,4 @@ int main()
 
 
 
-}
+//}
