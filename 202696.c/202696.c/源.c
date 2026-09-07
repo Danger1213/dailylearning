@@ -31,10 +31,14 @@
 //
 //	return 0;
 // 
-//} 
+//}
+#include<stdio.h>
+#include<string.h>
 int main()
 {
-	char arr1[] = "abc";
-	char arr2[] = { 'a','b','c' };
+	int len = strlen("abc");
+	printf("%d\n,len");
 	return 0;
+
+
 }
